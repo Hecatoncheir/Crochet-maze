@@ -168,13 +168,13 @@ i {
 }
 
 nav a {
-    color: #444;
+    color: #999;
     background: #fff;
 }
 
 nav a:hover,
 nav a:visited {
-    color: #222;
+    color: #999;
 }
 
 
@@ -317,12 +317,12 @@ nav a:visited {
    ============ */
 
     .main article {
-        float: left;
+        float: right;
         width: 57%;
     }
 
     .main aside {
-        float: right;
+        float: left;
         width: 28%;
     }
 }
