@@ -143,12 +143,23 @@ i {
     font-style: normal;
 }
 
+.type-fix {
+    display: inline-block;
+    position: relative;
+    padding-right: 15px;
+}
+
 .header-container,
 .main aside {
     color: #444;
     -webkit-box-shadow: none !important;
         -moz-box-shadow: none !important;
             box-shadow: none !important;
+}
+
+.header-container {
+    background: #F2F1ED;
+    display: none;
 }
 
 .title {
@@ -162,7 +173,7 @@ i {
 .main aside {
     margin-top: 20px;
     padding-top: 10px;
-    background: #F2F1ED;
+    /*background: #F2F1ED;*/
 }
 
 .main aside h3 {
@@ -171,7 +182,7 @@ i {
 
 nav a {
     color: #999;
-    background: #fff;
+    background: transparent;
 }
 
 nav a:hover,
