@@ -154,8 +154,8 @@ i {
 .title {
     padding: 12px 18px;
     position: relative;
-    background: #444;
-    color: #fff;
+    background: #F2F1ED;
+    color: #444;
     text-align: center;
 }
 
@@ -483,13 +483,13 @@ xtype animation
   animation: cd-pulse 1s infinite;
 }
 .cd-headline.type .cd-words-wrapper.selected {
-  background-color: #F2F1ED;
+  background-color: #DE5A51;
 }
 .cd-headline.type .cd-words-wrapper.selected::after {
   visibility: hidden;
 }
 .cd-headline.type .cd-words-wrapper.selected b {
-  color: #0d0d0d;
+  color: #fff;
 }
 .cd-headline.type b {
   visibility: hidden;
