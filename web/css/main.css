@@ -136,24 +136,47 @@ nav a:hover {
 body {
     font-family: 'Anonymous Pro', monospace;
     background-color: #fff;
+    color: #444;
 }
 
 .header-container,
 .main aside {
-    color: #000;
+    color: #444;
     -webkit-box-shadow: none !important;
         -moz-box-shadow: none !important;
             box-shadow: none !important;
 }
 
+.title {
+    background: #444;
+    color: #fff;
+    padding: 12px 18px;
+    text-align: center;
+}
+
+.main aside {
+    background: #F2F1ED;
+}
+
+.main aside h3 {
+    color:#DE5A51;
+}
+
 nav a {
-    color: #000;
+    color: #444;
     background: #fff;
 }
 
+nav a:hover,
+nav a:visited {
+    color: #222;
+}
+
+
+
 .footer-container {
     padding: 80px 0 40px;
-    background: #000;
+    background: #444;
 }
 
 .footer-container footer {
@@ -171,7 +194,7 @@ nav a {
 
 .footer-container .footer-logotype h2 {
     background: #fff;
-    color: #000;
+    color: #444;
     display: inline-block;
     margin: 0 auto;
     padding: 3px 6px;
@@ -180,17 +203,15 @@ nav a {
 .footer-container .footer-logotype h3 {
     letter-spacing: -0.06em;
     font-size: 1.2em;
-    color: #999;
+    color: #F2F1ED;
     margin-top: 16px;
 }
 
 .footer-container #meta {
     display: flex;
-    justify-content: flex-end;
-    flex-grow: 1;
-
+    flex-direction: column;
     margin-top: 40px;
-    border-top: 1px solid #333;
+    border-top: 1px solid #F2F1ED;
     padding-top: 36px;
     font-size: 11px;
 }
@@ -211,6 +232,13 @@ nav a {
 }
 
 
+@media only screen and (min-width: 768px) {
+    .footer-container #meta {
+        flex-direction: row;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+}
 
 
 
