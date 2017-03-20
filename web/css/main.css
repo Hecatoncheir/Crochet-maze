@@ -143,6 +143,25 @@ i {
     font-style: normal;
 }
 
+a {
+    color: #DE5A51;
+}
+
+.orange-button {
+    color: #F2F1ED;
+    background: #DE5A51;
+    padding: 6px 8px;
+    text-decoration: none;
+    border-radius: 3px;
+    float: right;
+    transition: all 150ms;
+}
+
+.orange-button:hover {
+    background: #F2F1ED;
+    color: #DE5A51;
+}
+
 .type-fix {
     display: inline-block;
     position: relative;
