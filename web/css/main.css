@@ -147,6 +147,8 @@ a {
     color: #DE5A51;
 }
 
+p i {font-style: italic}
+
 .orange-button {
     color: #F2F1ED;
     background: #DE5A51;
