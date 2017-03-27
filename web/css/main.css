@@ -220,6 +220,10 @@ nav a:visited {
     color: #999;
 }
 
+.cost {
+    padding-right: 10px;
+    display: inline-block
+}
 
 
 .footer-container {
